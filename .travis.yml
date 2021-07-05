@@ -1,0 +1,6 @@
+language: spring-boot
+dist: focal
+arch:
+  - ppc64le
+script:
+  - ./gradlew build
