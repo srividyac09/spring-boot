@@ -8,4 +8,4 @@ jobs:
   - get: spring-boot
     trigger: true
   - task: build
-    file: spring-boot/pipeline.yml
+    file: pipeline.yml
