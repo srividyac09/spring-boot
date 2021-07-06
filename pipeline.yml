@@ -1,6 +1,0 @@
-resources:
-  - name: spring-boot
-    type: git
-    source:
-      uri: https://github.com/srividyac09/spring-boot.git
-      branch: master
