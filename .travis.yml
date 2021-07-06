@@ -1,4 +1,4 @@
-language: spring-boot
+language: java
 dist: bionic
 arch:
   - ppc64le
