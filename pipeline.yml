@@ -1,0 +1,11 @@
+resources:
+- name: spring-boot
+  type: git
+  source: {url: "https://github.com/srividyac09/spring-boot"}
+jobs:
+- name: unit
+  plan:
+  - get: spring-boot
+    trigger: true
+  - task: build
+    file: spring-boot/pipeline.yml
