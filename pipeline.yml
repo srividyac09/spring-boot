@@ -7,5 +7,5 @@ jobs:
   plan:
   - get: spring-boot
     trigger: true
-  - task: build
+  - task: test
     file: spring-boot/pipeline.yml
